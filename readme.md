@@ -4,7 +4,7 @@ The purpose of this project is to provide a basic structure for a container-base
  - `containers-environment` provides everything needed to compile the project.
  - `containers` is the result of compiling the project.
 
-This way the only program required to both compile and run the project, is Docker.
+This way the only program required, to both compile and run the project, is Docker.
 
 ## Setting up the environment
 
