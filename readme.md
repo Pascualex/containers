@@ -23,9 +23,9 @@ Currently the `containers-environment` image is equivalent to `maven:3.6.3-jdk-1
 ## Building the project
 
 To build the project, execute [build.cmd](build.cmd) or use the following commands.
-  - Build the image using its [Dockerfile](./containers/Dockerfile):
+  - Build the image using its [Dockerfile](./project/Dockerfile):
     ```
-    docker build -t containers ./containers
+    docker build -t containers ./project
     ```
   - Remove the previous image:
     ```
