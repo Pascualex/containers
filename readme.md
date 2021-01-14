@@ -13,7 +13,7 @@ To set up the environment, execute [set-environment.cmd](set-environment.cmd) or
     ```
     docker build -t containers-environment ./environment
     ```
-  - Remove the previous image:
+  - If needed, to remove the previous image:
     ```
     docker image rm containers-environment
     ```
@@ -33,7 +33,7 @@ To build the project, execute [build.cmd](build.cmd) or use the following comman
     ```
     docker build -t containers ./project
     ```
-  - Remove the previous image:
+  - If needed, to remove the previous image:
     ```
     docker image rm containers
     ```
